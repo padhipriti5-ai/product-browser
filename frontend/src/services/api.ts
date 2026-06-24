@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://product-browser-1-lgza.onrender.com";
 
 export async function getProducts(
     limit = 20,
@@ -37,5 +37,5 @@ export async function getProducts(
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: "http://localhost:8000",
+    baseURL: "https://product-browser-1-lgza.onrender.com",
 });
