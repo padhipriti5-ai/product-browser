@@ -233,8 +233,7 @@ export default function App() {
       try {
         setLoading(true);
 
-        let url = "https://product-browser-1-lgza.onrender.com/products?limit=500";
-
+        let url = "https://product-browser-p4sa.onrender.com/products?limit=500";
         if (category) {
           url += `&category=${category}`;
         }
