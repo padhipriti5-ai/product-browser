@@ -1,4 +1,4 @@
-const API_URL = "https://product-browser-1-lgza.onrender.com/";
+const API_URL = "https://product-browser-1-lgza.onrender.com";
 
 export async function getProducts(
     limit = 20,
@@ -37,5 +37,5 @@ export async function getProducts(
 import axios from "axios";
 
 export const api = axios.create({
-    baseURL: "https://product-browser-1-lgza.onrender.com/",
+    baseURL: "https://product-browser-1-lgza.onrender.com",
 });
